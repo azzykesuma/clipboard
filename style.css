@@ -291,11 +291,18 @@ ul > li:hover {
 
     .workflowContainer {
         flex-direction: row;
+        justify-content: space-evenly;
+        /* align-items: center; */
+    }
+
+    .workflowCard {
+        width : 340px;
     }
 
     .workflowCard > img {
         margin-bottom: 40px;
     }
+
 
     .companyContainer {
         flex-direction: row;
